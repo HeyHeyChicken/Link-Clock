@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/HeyHeyChicken/No-Clock/main/resources/wallpaper.jpg">
+<img src="https://raw.githubusercontent.com/HeyHeyChicken/Link-Clock/main/resources/wallpaper.jpg">
 </div>
 
 <br>

@@ -1,4 +1,18 @@
 const SIZE = 16;
+const NUMBERS = [
+    [
+        [0,0],[1,0],[2,0],[3,0],[4,0],[5,0],
+        [0,1],[1,1],[2,1],[3,1],[4,1],[5,1],
+        [0,2],[1,2],[4,2],[5,2],
+        [0,3],[1,3],[4,3],[5,3],
+        [0,4],[1,4],[4,4],[5,4],
+        [0,5],[1,5],[4,5],[5,5],
+        [0,6],[1,6],[4,6],[5,6],
+        [0,7],[1,7],[4,7],[5,7],
+        [0,8],[1,8],[2,8],[3,8],[4,8],[5,8],
+        [0,9],[1,9],[2,9],[3,9],[4,9],[5,9],
+    ]
+];
 
 class Example extends Phaser.Scene
 {
@@ -35,10 +49,9 @@ class Example extends Phaser.Scene
 
         // The player and its settings
         this.player = this.physics.add.sprite(SIZE * 10, SIZE * 26, 'dude');
-        this.player.body.setSize(SIZE, SIZE, false);
+        this.player.body.setSize(SIZE, SIZE);
+        this.player.body.offset.y = 8;
         document.okok = this.player;
-
-        MAP.createLayer('level_3', tileset);
 
         //  Our player animations
         this.anims.create({
@@ -75,6 +88,12 @@ class Example extends Phaser.Scene
         this.cursors = this.input.keyboard.createCursorKeys();
 
         this.physics.add.collider(this.player, COLLISION);
+
+        const GROUP = this.physics.add.group();
+
+        this.showNumber(9, 11, 0, GROUP);
+
+        MAP.createLayer('level_3', tileset);
     }
 
     update ()
@@ -117,6 +136,16 @@ class Example extends Phaser.Scene
             
         this.player.x = Math.round(this.player.x);
         this.player.y = Math.round(this.player.y);
+    }
+
+    showNumber(x, y, number, group){
+        NUMBERS[number].forEach(element => {
+            group.add(this.addGem(x + element[0], y + element[1]));
+        });
+    }
+
+    addGem(x, y){
+        return this.physics.add.image(SIZE * x - SIZE / 2, SIZE * y - SIZE / 2, 'gem');
     }
 }
 

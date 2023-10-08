@@ -43,30 +43,11 @@ npm install
 ```
 node index.js
 ```
-2) If you start the launcher for the first time, it will generate you an API key used to send notifications to your device.<br/>
 
 ## Features
 
-1) Your clock shows you the time, specifying the seconds or not, the day of the week and the day of the month.<br/>
-2) You can ask it to display a notification with a POST request at http://localhost/notification.<br/>
-You'll have to set the "api-key" attribute in the header.<br/>
-Finaly, you'll have to set the body like this:
-```json
-{
-    "icon": {
-        "x": 1,
-        "y": 1,
-        "value": "hourglass"
-    },
-    "message": {
-        "x": 11,
-        "y": 1,
-        "value": "8 minutesand 23   seconds  remaining"
-    },
-    "remaining_time": 5,
-    "sound": "https://dm0qx8t0i9gc9.cloudfront.net/previews/audio/BsTwCwBHBjzwub4i4/audioblocks-bells-positive-sound_BKqfVgMUAvU_NWM.mp3"
-}
-```
+1) Your clock shows you the time in Link's universe.<br/>
+2) You can move Link with your keyboard.
 
 ## Compatibility
 

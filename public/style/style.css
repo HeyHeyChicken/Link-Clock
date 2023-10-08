@@ -1,0 +1,11 @@
+html > body {
+    margin: 0;
+    background-color: black;
+}
+html > body canvas{
+    image-rendering: pixelated;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

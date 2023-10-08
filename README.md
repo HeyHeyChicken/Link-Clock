@@ -19,7 +19,7 @@
         <td>
           <img src="https://www.android.com/static/images/fav/favicon.ico">
         </td>
-        <td>Do you want to recycle your old android device in a "No-Clock"? <a href="https://github.com/HeyHeyChicken/No-Clock-Android">Use this app</a>!</td>
+        <td>Do you want to recycle your old android device in a "Link-Clock"? <a href="https://github.com/HeyHeyChicken/No-Clock-Android">Use this app</a>!</td>
       </tr>
     </thead>
   </table>
@@ -29,11 +29,11 @@
 
 1) Clone it directly from GitHub.
 ```
-git clone https://github.com/HeyHeyChicken/No-Clock.git
+git clone https://github.com/HeyHeyChicken/Link-Clock.git
 ```
 2) Install packages
 ```
-cd No-Clock-main
+cd Link-Clock-main
 npm install
 ```
 
@@ -70,13 +70,13 @@ Finaly, you'll have to set the body like this:
 
 ## Compatibility
 
-**No-Clock** has only been officially tested on Chromium based browser and <a href="https://github.com/HeyHeyChicken/No-Clock-Android">Android</a>.
+**Link-Clock** has only been officially tested on Chromium based browser and <a href="https://github.com/HeyHeyChicken/Link-Clock-Android">Android</a>.
 
 ## License key
 
 **The license key is obligatory.**
 
-If you use **No-Clock** for purposes not intended toward monetary compensation such as, but not limited to, teaching, academic research, evaluation, testing and experimentation, pass the phrase `'non-commercial-and-evaluation'` in the "/settings.json" file, as presented below:
+If you use **Link-Clock** for purposes not intended toward monetary compensation such as, but not limited to, teaching, academic research, evaluation, testing and experimentation, pass the phrase `'non-commercial-and-evaluation'` in the "/settings.json" file, as presented below:
 
 ```json
 {

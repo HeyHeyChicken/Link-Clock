@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/HeyHeyChicken/Link-Clock/main/resources/logo3.png" width="200">
 <br><br>
 
-**Link-Clock** is a customizable clock, able to display all your notifications, made with Node.js.<br>
+**Link-Clock** is a clock showing you the time in Link's universe, made with Node.js.<br>
 
 <br>
 

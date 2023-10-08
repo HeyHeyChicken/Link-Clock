@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/HeyHeyChicken/No-Clock/main/resources/logo.png" width="300">
 <br><br>
 
-**No-Clock** is a customizable clock, able to display all your notifications, made with Node.js.<br>
+**Link-Clock** is a customizable clock, able to display all your notifications, made with Node.js.<br>
 
 <br>
 

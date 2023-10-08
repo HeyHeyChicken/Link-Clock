@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/HeyHeyChicken/Link-Clock/main/resources/logo2.png" width="200">
+<img src="https://raw.githubusercontent.com/HeyHeyChicken/Link-Clock/main/resources/logo3.png" width="200">
 <br><br>
 
 **Link-Clock** is a customizable clock, able to display all your notifications, made with Node.js.<br>

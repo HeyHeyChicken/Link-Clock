@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/HeyHeyChicken/Link-Clock/main/resources/logo3.png" width="200">
+<img src="https://raw.githubusercontent.com/HeyHeyChicken/Link-Clock/main/resources/logo.png" width="200">
 <br><br>
 
 **Link-Clock** is a clock showing you the time in Link's universe, made with Node.js.<br>

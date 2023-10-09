@@ -43,7 +43,7 @@ node index.js
 
 ## Thanks
 
-This project would not be what it is without the participation of [Alex Daniel](https://discordapp.com/users/274184344300552192). Thanks to him :)
+This project would not be what it is without the participation of [Alex Daniel](https://discordapp.com/users/274184344300552192). Thanks to him 😀
 
 <br>
 <br>

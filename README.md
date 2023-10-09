@@ -41,6 +41,10 @@ node index.js
 
 **Link-Clock** has only been officially tested on Chromium based browser.
 
+## Thanks
+
+This project would not be what it is without the participation of [Alex Daniel](https://discordapp.com/users/274184344300552192). Thanks to him :)
+
 <br>
 <br>
 

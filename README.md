@@ -12,19 +12,6 @@
 
 <br>
 
-<div align="center">
-  <table>
-    <thead>
-      <tr>
-        <td>
-          <img src="https://www.android.com/static/images/fav/favicon.ico">
-        </td>
-        <td>Do you want to recycle your old android device in a "Link-Clock"? <a href="https://github.com/HeyHeyChicken/No-Clock-Android">Use this app</a>!</td>
-      </tr>
-    </thead>
-  </table>
-</div>
-
 ## Installation
 
 1) Clone it directly from GitHub.
@@ -51,22 +38,7 @@ node index.js
 
 ## Compatibility
 
-**Link-Clock** has only been officially tested on Chromium based browser and <a href="https://github.com/HeyHeyChicken/Link-Clock-Android">Android</a>.
-
-## License key
-
-**The license key is obligatory.**
-
-If you use **Link-Clock** for purposes not intended toward monetary compensation such as, but not limited to, teaching, academic research, evaluation, testing and experimentation, pass the phrase `'non-commercial-and-evaluation'` in the "/settings.json" file, as presented below:
-
-```json
-{
-  "licenseKey": "non-commercial-and-evaluation"
-}
-```
-
-The license key is validated in an offline mode.<br/>
-No connection is made to any server.<br/>
+**Link-Clock** has only been officially tested on Chromium based browser.
 
 <br>
 <br>

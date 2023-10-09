@@ -30,6 +30,7 @@ npm install
 ```
 node index.js
 ```
+2) Open your browser at the following address: [http://localhost:80](http://localhost:80).
 
 ## Features
 
